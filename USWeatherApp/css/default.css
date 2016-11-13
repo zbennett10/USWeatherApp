@@ -11,11 +11,16 @@ body {
 }
 
 #container {
-  margin: auto;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  margin:auto;
   height: 300px;
   width: 600px;
   background-color: #B4DBC0;
   border: 10px solid #EAE3EA;
+  position:fixed;
 }
 
 #container h2 {
@@ -59,18 +64,22 @@ input {
   
   #container h4 {
    color: #535353;
-  font-family: verdana;
+   font-family: verdana;
    display: inline-block;
-    margin-left:46%;
-    font-size: 18px;
-    
+   margin-left:46%;
+   font-size: 18px; 
   }
 
 #degreechanger {
   display: inline-block;
   height: 25px;
   width: 30px;
-  margin-top: 2px;
+}
+
+#temperatureBlock {
+    margin: auto;
+    margin-top: -2%;
+    display: block;
 }
 
  
